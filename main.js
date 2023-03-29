@@ -11,7 +11,7 @@ function getDogs() {
 
   container.innerHTML = breedNames.map(breed => `
      <div class="card-body">
-     <img class="card-img-top" src="" alt="" style="object-fit: cover; object-position: center;" height="200px" width="200px" />
+     <img class="card-img-top" src="" alt="" style="object-fit: cover; object-position: center;" height="300px" />
      <h5 class="card-title">Breed name</h5>
      </div>
      </div>`).join('');
